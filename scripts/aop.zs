@@ -1,10 +1,11 @@
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.Enricher;
 import mods.nuclearcraft.AlloyFurnace;
 import mods.nuclearcraft.Electrolyzer;
-import crafttweaker.oredict.IOreDictEntry;
 import mods.nuclearcraft.ChanceItemIngredient;
 import mods.nuclearcraft.RockCrusher;
 import mods.nuclearcraft.Crystallizer;
@@ -47,7 +48,7 @@ var sulfur	= <liquid:sulfuric_acid>;
 var nitric 	= <liquid:nitric_acid>;
 var chlor 	= <liquid:hydrochloric_acid>;	
 var dust	= [<ore:dustIron>,<ore:dustGold>,<ore:dustCopper>,<ore:dustTin>,<ore:dustLead>,
-				<ore:dustSilver>,<ore:dustAluminium>,<ore:dustIridium>,<ore:dustNickel>,<ore:dustPlatinum>,
+				<ore:dustSilver>,<ore:dustAluminum>,<ore:dustIridium>,<ore:dustNickel>,<ore:dustPlatinum>,
 				<ore:dustMagnesium>,<ore:dustBoron>,<ore:dustLithium>,<ore:dustThorium>,<ore:dustUranium>] as IIngredient[];	
 				
 //iron,gold,copper,tin,lead,
@@ -56,8 +57,9 @@ var dust	= [<ore:dustIron>,<ore:dustGold>,<ore:dustCopper>,<ore:dustTin>,<ore:du
 var secondary = [ChanceItemIngredient.create(<ore:dustChromium>*5, 60),ChanceItemIngredient.create(<ore:dustSilver>, 50),ChanceItemIngredient.create(<ore:dustZinc>, 25),ChanceItemIngredient.create(<ore:dustZirconium>*5,25),ChanceItemIngredient.create(<ore:dustNickel>,50),
 				ChanceItemIngredient.create(<ore:dustNickel>,50),ChanceItemIngredient.create(<ore:dustTitanium>,50),ChanceItemIngredient.create(<ore:dustPlatinum>,5),ChanceItemIngredient.create(<ore:dustTungsten>, 20),ChanceItemIngredient.create(<ore:dustIridium>,5),
 				ChanceItemIngredient.create(<ore:dustCalcium>,50),ChanceItemIngredient.create(<ore:dustCalcium>,50),ChanceItemIngredient.create(<ore:dustAluminium>,50),ChanceItemIngredient.create(<ore:dustTitanium>,50),ChanceItemIngredient.create(<ore:dustThorium>,50)] as IIngredient[];
+				
 var tertiary = [ChanceItemIngredient.create(<ore:dustManganese>, 25),ChanceItemIngredient.create(<ore:dustElectrum>, 50),ChanceItemIngredient.create(<ore:dustIridium>,5),ChanceItemIngredient.create(<ore:dustTungsten>,50),ChanceItemIngredient.create(<ore:dustCobalt>,25),
-				ChanceItemIngredient.create(<ore:dustCobalt>,25),ChanceItemIngredient.create(<ore:gemSilicon>*2,50),ChanceItemIngredient.create(<ore:dustOsmium>,10),ChanceItemIngredient.create(<ore:dustHafnium>, 25),ChanceItemIngredient.create(<ore:dustOsmium>,10),
+				ChanceItemIngredient.create(<ore:dustCobalt>,25),<ore:gemSilicon>,ChanceItemIngredient.create(<ore:dustOsmium>,10),ChanceItemIngredient.create(<ore:dustHafnium>, 25),ChanceItemIngredient.create(<ore:dustOsmium>,10),
 				ChanceItemIngredient.create(<ore:dustPotassium>,25),ChanceItemIngredient.create(<ore:dustPotassium>,25),ChanceItemIngredient.create(<ore:dustSodium>,25),ChanceItemIngredient.create(<ore:dustHafnium>, 25),ChanceItemIngredient.create(<ore:dustNiobium>,50)] as IIngredient[];			
 		
 for i,item in rad_ore{		
