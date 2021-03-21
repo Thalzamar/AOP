@@ -1,0 +1,99 @@
+
+
+
+
+item.contenttweaker.rad_iron.name		=Irradiated Iron Ore
+item.contenttweaker.rad_gold.name		=Irradiated Gold Ore
+item.contenttweaker.rad_copper.name		=Irradiated Copper Ore
+item.contenttweaker.rad_tin.name		=Irradiated Tin Ore
+item.contenttweaker.rad_lead.name		=Irradiated Lead Ore
+item.contenttweaker.rad_silver.name		=Irradiated Silver Ore
+item.contenttweaker.rad_aluminium.name	=Irradiated Aluminium Ore
+item.contenttweaker.rad_iridium.name	=Irradiated Iridium Ore
+item.contenttweaker.rad_nickel.name		=Irradiated Nickel Ore
+item.contenttweaker.rad_platinum.name	=Irradiated Platinum Ore
+item.contenttweaker.rad_magnesium.name	=Irradiated Magnesium Ore
+item.contenttweaker.rad_boron.name		=Irradiated Boron Ore
+item.contenttweaker.rad_lithium.name	=Irradiated Lithium Ore
+item.contenttweaker.rad_thorium.name	=Irradiated Thorium Ore
+item.contenttweaker.rad_uranium.name	=Irradiated Uranium Ore
+
+item.contenttweaker.rad_iron_shard.name			=Impure Iron Crystal
+item.contenttweaker.rad_gold_shard.name			=Impure Gold Crystal
+item.contenttweaker.rad_copper_shard.name		=Impure Copper Crystal
+item.contenttweaker.rad_tin_shard.name			=Impure Tin Crystal
+item.contenttweaker.rad_lead_shard.name			=Impure Lead Crystal
+item.contenttweaker.rad_silver_shard.name		=Impure Silver Crystal
+item.contenttweaker.rad_aluminium_shard.name	=Impure Aluminium Crystal
+item.contenttweaker.rad_iridium_shard.name		=Impure Iridium Crystal
+item.contenttweaker.rad_nickel_shard.name		=Impure Nickel Crystal
+item.contenttweaker.rad_platinum_shard.name		=Impure Platinum Crystal
+item.contenttweaker.rad_magnesium_shard.name	=Impure Magnesium Crystal
+item.contenttweaker.rad_boron_shard.name		=Impure Boron Crystal
+item.contenttweaker.rad_lithium_shard.name		=Impure Lithium Crystal
+item.contenttweaker.rad_thorium_shard.name		=Impure Thorium Crystal
+item.contenttweaker.rad_uranium_shard.name		=Impure Uranium Crystal
+
+liquid.reactive_rad_iron_borax=Reactive Iron Borax Slurry
+liquid.reactive_rad_gold_borax=Reactive Gold Borax Slurry
+liquid.reactive_rad_copper_borax=Reactive Copper Borax Slurry
+liquid.reactive_rad_tin_borax=Reactive Tin Borax Slurry
+liquid.reactive_rad_lead_borax=Reactive Lead Borax Slurry
+liquid.reactive_rad_silver_borax=Reactive Silver Borax Slurry
+liquid.reactive_rad_aluminium_borax=Reactive Aluminium Borax Slurry
+liquid.reactive_rad_iridium_borax=Reactive Iridium Borax Slurry
+liquid.reactive_rad_nickel_borax=Reactive Nickel Borax Slurry
+liquid.reactive_rad_platinum_borax=Reactive Platinum Borax Slurry
+liquid.reactive_rad_magnesium_borax=Reactive Magnesium Borax Slurry
+liquid.reactive_rad_boron_borax=Reactive Boron Borax Slurry
+liquid.reactive_rad_lithium_borax=Reactive Lithium Borax Slurry
+liquid.reactive_rad_thorium_borax=Reactive Thorium Borax Slurry
+liquid.reactive_rad_uranium_borax=Reactive Uranium Borax Slurry
+					
+liquid.rad_iron_borax_slurry=Liquid Iron Borate Hydroxide 
+liquid.rad_gold_borax_slurry=Liquid Gold Borate Hydroxide 
+liquid.rad_copper_borax_slurry=Liquid Copper Borate Hydroxide 
+liquid.rad_tin_borax_slurry=Liquid Tin Borate Hydroxide 
+liquid.rad_lead_borax_slurry=Liquid Lead Borate Hydroxide 
+liquid.rad_silver_borax_slurry=Liquid Silver Borate Hydroxide 
+liquid.rad_aluminium_borax_slurry=Liquid Aluminium Borate Hydroxide 
+liquid.rad_iridium_borax_slurry=Liquid Iridium Borate Hydroxide 
+liquid.rad_nickel_borax_slurry=Liquid Nickel Borate Hydroxide 
+liquid.rad_platinum_borax_slurry=Liquid Platinum Borate Hydroxide 
+liquid.rad_magnesium_borax_slurry=Liquid Magnesium Borate Hydroxide 
+liquid.rad_boron_borax_slurry=Liquid Boron Borate Hydroxide 
+liquid.rad_lithium_borax_slurry=Liquid Lithium Borate Hydroxide 
+liquid.rad_thorium_borax_slurry=Liquid Thorium Borate Hydroxide 
+liquid.rad_uranium_borax_slurry=Liquid Uranium Borate Hydroxide 
+
+liquid.liquidized_rad_iron=Stonefree Iron Ore Liquid
+liquid.liquidized_rad_gold=Stonefree Gold Ore Liquid
+liquid.liquidized_rad_copper=Stonefree Copper Ore Liquid
+liquid.liquidized_rad_tin=Stonefree Tin Ore Liquid
+liquid.liquidized_rad_lead=Stonefree Lead Ore Liquid
+liquid.liquidized_rad_silver=Stonefree Silver Ore Liquid
+liquid.liquidized_rad_aluminium=Stonefree Aluminium Ore Liquid
+liquid.liquidized_rad_iridium=Stonefree Iridium Ore Liquid
+liquid.liquidized_rad_nickel=Stonefree Nickel Ore Liquid
+liquid.liquidized_rad_platinum=Stonefree Platinum Ore Liquid
+liquid.liquidized_rad_magnesium=Stonefree Magnesium Ore Liquid
+liquid.liquidized_rad_boron=Stonefree Boron Ore Liquid
+liquid.liquidized_rad_lithium=Stonefree Lithium Ore Liquid
+liquid.liquidized_rad_thorium=Stonefree Thorium Ore Liquid
+liquid.liquidized_rad_uranium=Stonefree Uranium Ore Liquid
+
+liquid.washed_rad_iron=Iron Crystallization Feed
+liquid.washed_rad_gold=Gold Crystallization Feed
+liquid.washed_rad_copper=Copper Crystallization Feed
+liquid.washed_rad_tin=Tin Crystallization Feed
+liquid.washed_rad_lead=Lead Crystallization Feed
+liquid.washed_rad_silver=Silver Crystallization Feed
+liquid.washed_rad_aluminium=Aluminium Crystallization Feed
+liquid.washed_rad_iridium=Iridium Crystallization Feed
+liquid.washed_rad_nickel=Nickel Crystallization Feed
+liquid.washed_rad_platinum=Platinum Crystallization Feed
+liquid.washed_rad_magnesium=Magnesium Crystallization Feed
+liquid.washed_rad_boron=Boron Crystallization Feed
+liquid.washed_rad_lithium=Lithium Crystallization Feed
+liquid.washed_rad_thorium=Thorium Crystallization Feed
+liquid.washed_rad_uranium=Uranium Crystallization Feed

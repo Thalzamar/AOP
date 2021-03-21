@@ -21,7 +21,7 @@ import mods.qmd.ore_leacher;
 var rad_ore = [<contenttweaker:rad_iron>,<contenttweaker:rad_gold>,<contenttweaker:rad_copper>,<contenttweaker:rad_tin>,<contenttweaker:rad_lead>,<contenttweaker:rad_silver>,
 				<contenttweaker:rad_aluminium>,<contenttweaker:rad_iridium>,<contenttweaker:rad_nickel>,<contenttweaker:rad_platinum>,
 				<contenttweaker:rad_magnesium>,<contenttweaker:rad_boron>,<contenttweaker:rad_lithium>,<contenttweaker:rad_thorium>,<contenttweaker:rad_uranium>] as IIngredient[];
-var norm_ore = [<ore:oreIron>,<ore:oreGold>,<ore:oreCopper>,<ore:oreTin>,<ore:oreLead>,<ore:oreSilver>,<ore:oreAluminium>,<ore:oreIridium>,<ore:oreNickel>,
+var norm_ore = [<ore:oreIron>,<ore:oreGold>,<ore:oreCopper>,<ore:oreTin>,<ore:oreLead>,<ore:oreSilver>,<ore:oreAluminum>,<ore:oreIridium>,<ore:oreNickel>,
 				<ore:orePlatinum>,<ore:oreMagnesium>,<ore:oreBoron>,<ore:oreLithium>,<ore:oreThorium>,<ore:oreUranium>] as IIngredient[];				
 var shard_ore = [<contenttweaker:rad_iron_shard>,<contenttweaker:rad_gold_shard>,<contenttweaker:rad_copper_shard>,<contenttweaker:rad_tin_shard>,<contenttweaker:rad_lead_shard>,<contenttweaker:rad_silver_shard>,
 				<contenttweaker:rad_aluminium_shard>,<contenttweaker:rad_iridium_shard>,<contenttweaker:rad_nickel_shard>,<contenttweaker:rad_platinum_shard>,
@@ -59,7 +59,7 @@ var secondary = [ChanceItemIngredient.create(<ore:dustChromium>*5, 60),ChanceIte
 				ChanceItemIngredient.create(<ore:dustCalcium>,50),ChanceItemIngredient.create(<ore:dustCalcium>,50),ChanceItemIngredient.create(<ore:dustAluminium>,50),ChanceItemIngredient.create(<ore:dustTitanium>,50),ChanceItemIngredient.create(<ore:dustThorium>,50)] as IIngredient[];
 				
 var tertiary = [ChanceItemIngredient.create(<ore:dustManganese>, 25),ChanceItemIngredient.create(<ore:dustElectrum>, 50),ChanceItemIngredient.create(<ore:dustIridium>,5),ChanceItemIngredient.create(<ore:dustTungsten>,50),ChanceItemIngredient.create(<ore:dustCobalt>,25),
-				ChanceItemIngredient.create(<ore:dustCobalt>,25),<ore:gemSilicon>,ChanceItemIngredient.create(<ore:dustOsmium>,10),ChanceItemIngredient.create(<ore:dustHafnium>, 25),ChanceItemIngredient.create(<ore:dustOsmium>,10),
+				ChanceItemIngredient.create(<ore:dustCobalt>,25),ChanceItemIngredient.create(<ore:itemSilicon>*2,50),ChanceItemIngredient.create(<ore:dustOsmium>,10),ChanceItemIngredient.create(<ore:dustHafnium>, 25),ChanceItemIngredient.create(<ore:dustOsmium>,10),
 				ChanceItemIngredient.create(<ore:dustPotassium>,25),ChanceItemIngredient.create(<ore:dustPotassium>,25),ChanceItemIngredient.create(<ore:dustSodium>,25),ChanceItemIngredient.create(<ore:dustHafnium>, 25),ChanceItemIngredient.create(<ore:dustNiobium>,50)] as IIngredient[];			
 		
 for i,item in rad_ore{		
@@ -85,9 +85,7 @@ Crystallizer.addRecipe(item*432,shard_ore[i],0.5,2.5);
 
 for i,item in shard_ore{
 furnace.addRecipe(stack[i],item);
-if ((loadedMods has "mekanism")){
-mods.mekanism.smelter.addRecipe(item,stack[i]);
-	}
+
 if ((loadedMods has "immersiveengineering")){
 mods.immersiveengineering.ArcFurnace.addRecipe(stack[i],item, null, 40, 200);
 	}
